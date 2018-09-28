@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>LAB323</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+<meta name="author" content="http://www.cssmoban.com" />
+<!-- css -->
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jcarousel.css" rel="stylesheet" />
+<link href="css/flexslider.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
+
+
+<!-- Theme skin -->
+<link href="skins/default.css" rel="stylesheet" />
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<div id="wrapper">
+	<!-- start header -->
+	<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                     <a class="navbar-brand" href="index.html"><span>LAB323</span></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">主页</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">主要产品 <b class=" icon-angle-down"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="power.html">电源</a></li>
+                                <li><a href="measurement.html">监测系统</a></li>
+								<li><a href="change.html">电机控制系统</a></li>
+                                <li><a href="others.html">其他</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="aboutus.html">简介</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+	<!-- end header -->
+	<section id="inner-headline">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<ul class="breadcrumb">
+					<li><a href="#"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+					<li class="active">多路高速采样系统</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section id="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<article>
+						<div class="post-slider">
+							<div class="post-heading">
+								<h3>多路高速采样系统</h3>
+							</div>
+							<!-- start flexslider -->
+							<div id="post-slider" class="flexslider">
+								<ul class="slides">
+									<li><img src="img/dummies/others3/1.jpg" alt=""></li>
+									<li><img src="img/dummies/others3/2.jpg" alt=""></li>
+									<li><img src="img/dummies/others3/3.jpg" alt=""></li>
+								</ul>
+							</div>
+							<!-- end flexslider -->
+						</div>
+				<h4>项目介绍</h4>
+				<p>本系统为多通道高速采样，可用于记录路数众多的波形。</p><br>
+					<dl class="dl-horizontal2">
+					<dt>系统简介</dt>
+					<p>系统主要分为硬件采样系统和上位机显示。</p>
+					<dd>
+					<ol>
+					<li>硬件采样系统：设备采用的是FPGA+ARM架构，FPGA主要控制多通道高速采样，ARM负责以太网通信。每个设备具有10个采样        通道，由同一个采样信号触发采样，采样时长为4ms（可调整）。每通道的采样精度为12位，最高采样速率可达3MHz。整个采样系统可以支持高达254个设备同时工作，通过网线、交换机组合成多设备采样系统，并连接到电脑上位机。</li>
+					<li>上位机显示：上位机可以设置系统中设备的数量、编号，显示设备的连接情况。设备每完成一次波形采样会将采样波形数据送到上位机，上位机将数据存储在数据库中，任何时候都可进行历史波形查看。上位机可以显示设备的任一通道波形，也可以同时显示所有通道波形。还具有波形颜色设定、上下翻转、时间测量、幅值测量、截图等功能。所有的波形数据都可以通过数据库的操作进行备份、还原。系统还支持基于互联网的远程监测。</li>
+					</dd>
+					<br>
+					<dt>项目说明</dt>
+					<dd>该硬件采样系统和上位机编写都由自行设计，且投入过使用，一切工作正常。 </dd>
+					</dl>
+				</article>
+			</div>
+			<div class="col-lg-4">
+				<aside class="right-sidebar">
+				<div class="widget">
+					<h5 class="widgetheading">主要产品</h5>
+					<ul class="cat">
+						<li><i class="icon-angle-right"></i><a href="power.html">电源</a><span> (20)</span></li>
+						<li><i class="icon-angle-right"></i><a href="measurement.html">监测系统</a><span> (11)</span></li>
+						<li><i class="icon-angle-right"></i><a href="change.html">电机控制系统</a><span> (9)</span></li>
+						<li><i class="icon-angle-right"></i><a href="others.html">其他</a><span> (12)</span></li>
+					</ul>
+				</div>
+				<div class="widget">
+					<h5 class="widgetheading">最新产品</h5>
+					<ul class="recent">
+						<li>
+						<img src="img/dummies/blog/65x65/thumb1.jpg" class="pull-left" alt="" />
+						<h6><a href="#">Lorem ipsum dolor sit</a></h6>
+						<p>
+							 Mazim alienum appellantur eu cu ullum officiis pro pri						</p>
+						</li>
+						<li>
+						<a href="#"><img src="img/dummies/blog/65x65/thumb2.jpg" class="pull-left" alt="" /></a>
+						<h6><a href="#">Maiorum ponderum eum</a></h6>
+						<p>
+							 Mazim alienum appellantur eu cu ullum officiis pro pri						</p>
+						</li>
+						<li>
+						<a href="#"><img src="img/dummies/blog/65x65/thumb3.jpg" class="pull-left" alt="" /></a>
+						<h6><a href="#">Et mei iusto dolorum</a></h6>
+						<p>
+							 Mazim alienum appellantur eu cu ullum officiis pro pri						</p>
+						</li>
+					</ul>
+				</div>
+				</aside>
+			</div>
+		</div>
+	</div>
+	</section>
+		<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">联系我们</h5>
+					<address>
+					<strong>上海交通大学智能电网大楼323室</strong><br>
+					 上海市闵行区东川路800号</address>
+					<p>
+						<i class="icon-phone"></i> 54749110 <br>
+						<i class="icon-envelope-alt"></i> email@domainname.com					</p>
+				</div>
+			</div>
+	  </div>
+		</div>
+	</footer>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/google-code-prettify/prettify.js"></script>
+<script src="js/portfolio/jquery.quicksand.js"></script>
+<script src="js/portfolio/setting.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
